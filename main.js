@@ -48,7 +48,7 @@ console.log(HTMLRepresentation)
 
 //Simon Says
 
-//FIXED?? note: not 100% sure what we are trying to accomplish here
+//FIXED
 
 const locations = [[1,1], [1,2], [1,3], [2,1], [2,2], [2,3]]
 
@@ -67,7 +67,7 @@ for (let location of locations) {
 
 
 //Lambda Llama
-
+//FIXED 
 const llamaNamer = function () {
     const possibleNames = ["Larry", "Leon", "Leona", "Les", "Laura", "Lemony", "Lars", "Lekisha"]
     const randomizer = Math.floor(Math.random() * 7);
